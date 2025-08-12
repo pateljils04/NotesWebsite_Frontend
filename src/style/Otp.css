@@ -1,0 +1,82 @@
+/* Container */
+.otp-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header */
+.otp-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.otp-header h2 {
+  font-size: 24px;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.otp-header p {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* OTP Inputs */
+.otp-inputs {
+ padding-left: 105px;
+  margin-bottom: 15px;
+}
+
+.otp-box {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.otp-box:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+/* Resend */
+.otp-resend {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.otp-resend a {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.otp-resend a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button */
+.otp-submit {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.otp-submit:hover {
+  background-color: #218838;
+}

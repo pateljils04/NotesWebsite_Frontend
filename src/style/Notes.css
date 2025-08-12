@@ -1,0 +1,117 @@
+.notes-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.notes-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  font-size: 38px;
+  color: rgb(30, 199, 30);
+  margin-bottom: 10px;
+}
+
+.notes-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.notes-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.note-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 260px;
+  transition: box-shadow 0.3s ease;
+}
+
+.note-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+    padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.note-content {
+  font-size: 18px;
+  color: #555;
+}
+
+.no-notes {
+  text-align: center;
+  color: red;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.note-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-btn {
+  padding: 8px 14px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.note-btn.edit {
+  background-color: #2196f3;
+  color: white;
+}
+
+.note-btn.edit:hover {
+  background-color: #0b7dda;
+}
+
+.note-btn.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.note-btn.delete:hover {
+  background-color: #d32f2f;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .notes-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .note-card {
+    width: 90%;
+  }
+}
